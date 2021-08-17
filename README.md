@@ -21,9 +21,24 @@
       Login Decorator를 통한 회원정보 확인 구현
 
 ## 프로젝트 환경
-- python 3.8
+- Python 3.8
 - Django 3.2
 - MySQL
+
+## 백엔드 사용기술
+- Python
+- Django
+- MySQL
+- JWT
+- Bcrypt
+
+## 프로젝트 형상관리 tool
+- Git(Github)
+
+## 협업 tool
+- trello
+- slack
+- gitbook
 
 ## 프로젝트 사용법
 1. Git repository 에서 clone을 받습니다.
