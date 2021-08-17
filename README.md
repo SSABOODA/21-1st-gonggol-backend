@@ -37,5 +37,6 @@ $ git clone https://github.com/SSABOODA/21-1st-gonggol-backend.git
 <a href="https://app.gitbook.com/@gonggol/s/gonggol/">백엔드 API 명세</a>
 
 ## ERD (modeling)
-![gonggol erd](https://user-images.githubusercontent.com/69753846/129688466-f5d163fd-0f8e-4238-af94-3a5ae1749622.png)
+<img width="1514" alt="스크린샷 2021-08-17 오후 5 08 14" src="https://user-images.githubusercontent.com/69753846/129688685-9ca47003-77d4-484c-b206-dff18ad6e37a.png">
+
 
