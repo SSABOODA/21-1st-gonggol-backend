@@ -58,7 +58,7 @@ $ git clone https://github.com/SSABOODA/21-1st-gonggol-backend.git
 │   ├── tests.py
 │   ├── urls.py
 │   └── views.py
-├── products
+├── products 
 │   ├── __init__.py
 │   ├── __pycache__
 │   ├── admin.py
@@ -80,3 +80,15 @@ $ git clone https://github.com/SSABOODA/21-1st-gonggol-backend.git
     ├── utils.py
     └── views.py
 ```
+- gonggol : 프로젝트 이름입니다.(최상위 폴더)
+    - gonggol/settings.py : 프로젝트의 기반이 되는 파일들이 설정되어있습니다.
+- my_settings.py : github에 push되면 안되는 내용들이 있습니다. (DATABASE 설정, SECERT_KEY, ALGORITHM)
+- orders : 장바구니 API를 구현하기 위한 프로젝트 app폴더입니다.
+    - models.py : 장바구니 관련 DB 테이블을 작성한 파일입니다.
+    - urls.py : order app 으로 들어온 요청을 views.py의 로직으로 매핑시켜주는 경로를 설정하는 파일입니다.
+    - views.py : 장바구니 관련 API를 작성하기 위해 실제 기능이 작동하는 로직이 담긴 파일입니다.
+- products : 사이트 메인 페이지 상품 호출, 상품 상세, 상품목록 페이지 API를 구현하기 위한 프로젝트 app폴더입니다.
+- users : User 회원가입, 로그인, 회원인증 관련 데이코레이터 API를 구현하기 위한 프로젝트 app 폴더입니다.
+- requirements.txt : 프로젝트를 실행하기 위해 가상환경에 설치해줘야 할 프레임워크, 라이브러리 목록입니다. ex)django, mysqlclient...
+
+
