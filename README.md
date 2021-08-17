@@ -1,6 +1,7 @@
 # '캉골' 웹사이트 구현 프로젝트
 
 ## 프로젝트 설명
+- '캉골' 커머스 사이트를 모티브로 하여 기능 구현 하였습니다.
 - 프로젝트 초기 단계부터 팀원과 협의하여 기획하였습니다.
 - 모든 기능은 직접 구현하였습니다.
 
@@ -36,3 +37,5 @@ $ git clone https://github.com/SSABOODA/21-1st-gonggol-backend.git
 <a href="https://app.gitbook.com/@gonggol/s/gonggol/">백엔드 API 명세</a>
 
 ## ERD (modeling)
+![gonggol erd](https://user-images.githubusercontent.com/69753846/129688466-f5d163fd-0f8e-4238-af94-3a5ae1749622.png)
+
