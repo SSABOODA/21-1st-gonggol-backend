@@ -39,4 +39,44 @@ $ git clone https://github.com/SSABOODA/21-1st-gonggol-backend.git
 ## ERD (modeling)
 <img width="1514" alt="스크린샷 2021-08-17 오후 5 08 14" src="https://user-images.githubusercontent.com/69753846/129688685-9ca47003-77d4-484c-b206-dff18ad6e37a.png">
 
-
+## 프로젝트 구조
+```
+├── gonggol
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+├── my_settings.py
+├── orders
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── products
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── requirements.txt
+└── users
+    ├── __init__.py
+    ├── admin.py
+    ├── apps.py
+    ├── migrations
+    ├── models.py
+    ├── tests.py
+    ├── urls.py
+    ├── utils.py
+    └── views.py
+```
